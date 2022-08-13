@@ -18,6 +18,6 @@ npm run dev
 
 ## **Tic Tac Toe**
 
-Let's play a of Tic Tac Toe!
+Let's play a game of Tic Tac Toe!
 
 This app uses Typescript, Tailwind CSS and Vue.js framework. It also uses local storage to save the game's state.
