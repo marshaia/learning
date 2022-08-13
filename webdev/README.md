@@ -1,0 +1,1 @@
+This folder has projects regarding the area of **web development**
