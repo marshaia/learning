@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+  </head>
+  <body>
+    <div id="app" class="mx-10 my-10 font-sans text-center">
+      <div>
+        <div class="flex-row my-10 text-5xl font-bold text-black">Rock Paper Scissors</div>
+        <p>
+          Select either rock, paper, or scissors and see if you can beat the
+          computer!
+        </p>
+        <p>
+          <strong>Remember:</strong> “Rock breaks scissors, scissors cuts paper,
+          paper covers rock.”
+        </p>
+        <div class="flex flex-row justify-center space-x-20 text-lg my-14 score-board">
+          <img id="player-img" width=80 src="">
+          <div id="player-score-container" class="px-4 py-2 bg-gray-200 rounded-md score-container" style="">
+            <span class="font-bold">PLAYER</span>
+            <p id="player-score" class="mt-5 score">0</p>
+          </div>
+          <div class="flex flex-col justify-center font-bold score"> VS </div>
+          <div id="computer-score-container" class="w-24 px-4 py-2 bg-gray-200 rounded-md score-container" style="">
+            <span class="font-bold">BOT</span>
+            <p id="computer-score" class="mt-5 score">0</p>
+          </div>
+          <img id="computer-img" width=80 src="">
+        </div>
+
+        <div class="space-x-5">
+          <button id="rock" class="px-3 rounded-md bg-emerald-300 btn hover:bg-emerald-500">Rock 🪨</button>
+          <button id="paper" class="px-3 bg-blue-300 rounded-md btn hover:bg-blue-400">Paper 📰</button>
+          <button id="scissors" class="px-3 bg-yellow-300 rounded-md btn hover:bg-yellow-400">Scissors ✂️</button>
+        </div>
+
+        <div class="my-12 font-bold message font-5xl"></div>
+
+        <div> 
+          <button id="reset" class="px-3 bg-red-400 rounded-md btn hover:bg-red-600">RESET</button>
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
