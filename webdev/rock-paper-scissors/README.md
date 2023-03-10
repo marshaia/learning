@@ -16,6 +16,8 @@ Run the following command:
 npm run dev
 ```
 
+**NOTE:** This project uses Tailwind CSS
+
 ## Rock - Paper - Scissors Game
 
 Let's play a game of rock - paper - scissors.
